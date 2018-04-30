@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Bootstrap Example</title>
+  <title>Landing page</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -26,49 +27,47 @@
 </head>
 <body>
 
-<div class="container-fluid" margin-left:0px;">
-<div class="row">
-<div class="col-sm-12 col-md-12 col-lg-12">
+<div class="container-fluid" width:100% style="border-radius: 2%">
+<!--div class="row">
+<div class="col-sm-12 col-md-12 col-lg-12"-->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <ul class="navbar-nav">
-    <li class="nav-item ">
+    <li class="nav-item active">
       <a class="nav-link" href="#Home1">About me</a>
     </li>
-    <li class="nav-item ">
+    <li class="nav-item active">
       <a class="nav-link" href="#Education">Education</a>
     </li>
-    <li class="nav-item ">
+    <li class="nav-item active ">
       <a class="nav-link" href="#Projects">Projects</a>
     </li>
-    <li class="nav-item ">
+    <li class="nav-item active">
       <a class="nav-link" href="#Work">Work Experience</a>
     </li>
-   <li class="nav-item ">
+   <li class="nav-item active">
       <a class="nav-link" href="#contact">Skills</a>
     </li>
-   <li class="nav-item ">
+   <li class="nav-item active">
       <a class="nav-link" href="#awards">Achievements</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item active">
       <a class="nav-link" href="#Skills">Contact me</a>
     </li>
   </ul>
 </nav>
-</div></div></div>
-<br>
-<br>
-<div align="centre">
-  <h1 style="color: red;">About</h1>
-  <img src="pic.jpg" alt="give the image bro" width="25%" height="25%">
-  </div>
-  <div style="background-color: ;">
-  <h2 style="font-size: 25px;">I'm Bandaru Rohith Reddy</h2>
+</div><!--/div></div-->
+<div align="centre" style="background-color:#DDCA7D; margin-left:1%; margin-right: 1%; border-radius: 2%;">
+  <br><br>
+  <h1 style="color:#242331;">About</h1>
+  <img src="pic.jpg" alt="give the image bro" width="20%" height="20%">
+  <div >
+  <h2 style="font-size: 35px; margin-left:35%; font-family: cursive;">Rohith Reddy Bandaru</h2>
          <p >I am experienced in competitive programming and a full stack devloper,love to do both front and back end in web devlopment and andriod application.Just Started working on machine learning</p>
-  </div>
-  <br><hr><br>
+         <br><br><br>
+  </div></div>
+  <div height=50px; style="background-color: #B3C5D7; margin-left:1%; margin-right: 1%; border-radius: 2%;">
   <a name="Education"></a>
-  <div height=50px;>
-    <h1 style="color: red;">Education</h1><br>
+    <h1 style="color:#242331;">Education</h1><br>
     <h2> CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY (AUG 2015-APR 2019)</h2>
     <p> (Bachelor of Engeneering) </p>
     <br>
@@ -80,9 +79,11 @@
     <br>
     <h4 style="margin-left:10% ">MPC</h4>
     <h4 style="margin-left:10% ">97.2%</h4>
-     <br><br><hr><br><br>
+     <br><br><br><br>
+     </div>
+     <div style="background-color: #A2A77F; margin-left:1%; margin-right: 1%; border-radius: 2%;">
   <a name="Projects"></a>
-    <h1 style="color: red">Projects</h1>
+    <h1 style="color:#242331;">Projects</h1>
     <hr>
     <ul style="margin-left: 10%">
       <li><b>CBIT SPORTS ANALYSIS</b></li>
@@ -109,22 +110,25 @@ contents to the web page.
 studio,where we can do mathematical calculations such as
 addition,subtraction,multiplication and division.</p></li>
     </ul>
-  </div>
   <hr>
-  <br><br><br><br>
+  <br><br><br><br>  </div>
+<div  style="background-color:#F5B0CB; margin-left:1%; margin-right: 1%; border-radius: 3%;">
   <a name="Work"></a>
   <div height="100px;">
-    <h1 style="color: red">Work Experience</h1> 
+  <br>
+    <h1 style="color:#242331">Work Experience</h1> 
       <h2>Rauzr technologies</h2>
-      <hr>
+      <hr style="margin-left:10% ">
       <h3 style="margin-left: 10%">Full stack Developer</h3>
-      <p>working as a full stack developer intern at rauzr technologies</p>   
-  </div>
+      <p>working as a full stack developer intern at rauzr technologies</p>
   <hr>
   <br><br><br><br>
+  </div></div>
+  <div  style="background-color:#6E7271; margin-left:1%; margin-right: 1%; border-radius: 3%;">
   <a name="awards"></a>
   <div>
-    <h1 style="color:red">Achievements</h1>
+  <br><b>
+    <h1 style="color:#242331">Achievements</h1>
       <ul class="fa-ul mb-0">
             <li style="margin-left: 10%">
               <i class="fa-li fa fa-trophy text-warning" color:red;></i>
@@ -142,12 +146,13 @@ addition,subtraction,multiplication and division.</p></li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               won 1st in communicando event in cbit cultural fest</li>
             <ul>
-  </div>
-  <br><br><hr><br>
+  <br><br><br>
+  </ul></ul></div></div>
+  <div  style="background-color:#9D8420; margin-left:1%; margin-right: 1%; border-radius: 3%;">
   <a name="Skills"></a>
    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
-          <h2 class="mb-5" style="color: red;">Skills</h2>
+          <h2 class="mb-5" style="color:#242331 ;">Skills</h2>
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul>
             <li>C++</li>
@@ -173,12 +178,15 @@ addition,subtraction,multiplication and division.</p></li>
 
 <a name="contact"></a>
 <footer class="container-fluid text-center">
-  <h2 style="margin-left: 45%px;">Contact me</h2>
+  <h2 style="margin-left:6% ">Contact me</h2>
   <h4>+91-9494246219</h4>
   <div> 
-    <i style="font-size:24px" class="fa">&#xf082;</i>
+  <a href="https://www.facebook.com/rohithreddy.bandaru" target="_blank" style="color:white">
+  <i style="font-size:24px" class="fa">&#xf082;</i></a>
+  <a href="" target="_blank" style="color:white">
+  <i style="font-size:24px" class="fa">&#xf2b3;</i></a>
    </div>
-  <h6> Gachibowli | Hyderabad | 500001
+  <h6> Gachibowli | Hyderabad | 500032
 </footer>
 </body>
 </html>
